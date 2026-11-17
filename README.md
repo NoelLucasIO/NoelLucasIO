@@ -1,16 +1,16 @@
-## Hi there 👋
+# Noel Lucas
 
-<!--
-**NoelLucasIO/NoelLucasIO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Infrastructure engineer with 26+ years across storage, Linux, networking, security and observability.
+Multi-petabyte object storage, Prometheus/Thanos and Splunk observability, and DR planning for
+enterprise and financial-sector environments.
 
-Here are some ideas to get you started:
+### Currently building
+**[sre-lab](https://github.com/NoelLucasIO/sre-lab)**: a home-lab reliability platform built the way production should be:
+Terraform modules with remote state, CI/CD with change-risk gates and automatic rollback,
+SLO-based burn-rate alerting, and timed DR drills with measured RTO/RPO.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Stack
+Linux · Podman · Terraform · Ansible · Kubernetes (k3s/RKE2) · Prometheus · Grafana · S3 object storage · TLS/PKI · DNS
+
+### Writing
+Technical articles and postmortems at **[noellucas.io](https://noellucas.io)**
