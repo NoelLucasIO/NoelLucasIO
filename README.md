@@ -9,8 +9,12 @@ enterprise and financial-sector environments.
 Terraform modules with remote state, CI/CD with change-risk gates and automatic rollback,
 SLO-based burn-rate alerting, and timed DR drills with measured RTO/RPO.
 
+**[ansible-homelab](https://github.com/NoelLucasIO/ansible-homelab)**: Ansible content run from Ansible Automation Platform 2.7
+with a custom execution environment: host bootstrap, journal shipping to Loki and Splunk, and KVM VM provisioning
+with addresses allocated from Infoblox NIOS. Idempotent, ansible-lint (production profile) and gitleaks in CI.
+
 ### Stack
-Linux · Podman · Terraform · Ansible · Kubernetes (k3s/RKE2) · Prometheus · Grafana · S3 object storage · TLS/PKI · DNS
+Linux · Podman · Terraform · Ansible / AAP · Kubernetes (k3s/RKE2) · Prometheus · Grafana · S3 object storage · TLS/PKI · DNS
 
 ### Writing
 Technical articles and postmortems at **[noellucas.io](https://noellucas.io)**
